@@ -57,11 +57,11 @@ document.getElementById("botones").style.display = 'none'
     console.log(`empate ${mio} y ${movimiento_CPU}`) 
     document.getElementById("estilo").innerHTML = `
 <div id="caja_img_1">
-    <img id="img_1"src="/PIedra papel o tijeras/imagenes/${mio}.png"></img>
+    <img id="img_1"src="imagenes/${mio}.png"></img>
 </div>
 
 <div id="caja_img_2">
-  <img id="img_2" src="/PIedra papel o tijeras/imagenes/${movimiento_CPU}.png"></img>
+  <img id="img_2" src="imagenes/${movimiento_CPU}.png"></img>
 </div>
     <style>
     #caja_img_1{
@@ -85,11 +85,11 @@ else{
         setTimeout(espera, 2000)
       document.getElementById("estilo").innerHTML = `
     <div id="caja_img_1">
-      <img id="img_1"src="/PIedra papel o tijeras/imagenes/${mio}.png"></img>
+      <img id="img_1"src="imagenes/${mio}.png"></img>
     </div>
   
     <div id="caja_img_2">
-    <img id="img_2" src="/PIedra papel o tijeras/imagenes/${movimiento_CPU}.png"></img>
+    <img id="img_2" src="imagenes/${movimiento_CPU}.png"></img>
     </div>
       <style>
       #caja_img_1{
@@ -104,11 +104,11 @@ else{
         setTimeout(espera, 2000)
         document.getElementById("estilo").innerHTML = `
     <div id="caja_img_1">
-      <img id="img_1"src="/PIedra papel o tijeras/imagenes/${mio}.png"></img>
+      <img id="img_1"src="imagenes/${mio}.png"></img>
     </div>
   
     <div id="caja_img_2">
-    <img id="img_2" src="/PIedra papel o tijeras/imagenes/${movimiento_CPU}.png"></img>
+    <img id="img_2" src="imagenes/${movimiento_CPU}.png"></img>
     </div>
       <style>
       #caja_img_1{
