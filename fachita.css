@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #121212;
+  color: #03DAC5;
+}
+
+header{
+  height: 100px;
+  overflow: hidden;
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+  background: #030303;
+}
+h1{
+  margin-top: 20px;
+  color: #3700B3;
+}
+#creacion{
+  color: #CF6679;
+}
+#botones{
+  text-align: center;
+  width: 200px;
+  left: auto;
+  right: auto;
+  z-index:200; margin: 5% auto; left: 0; right: 0;
+}
+table{
+  right: 0;
+}
+#botones, table, #cajita_1{
+  display: inline-block;
+  position: fixed;
+
+}
+
+img{
+  
+  width: 50px;
+  image-rendering: pixelated;
+}
+
+button{
+  margin-top: 10px;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  border: #2c2c2c;
+  border-radius: 15px;
+  background: #2c2c2c;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  td,th,tr {
+    padding: 5px;
+    border: #03DAC5 1px solid;
+  }
+#historial{
+    text-align: center;
+    height: 200px;
+    overflow: auto;
+    width: 340px;
+    border: 10px solid rgb(27, 27, 27);
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    color: rgb(6, 141, 6);
+}
+#colores{
+  color: #bb86fc;
+  color: #3700B3;
+  color: #03DAC5;
+  color: #121212;
+  color: #CF6679;
+
+}
+button:hover{
+  background-color: #1a1a1a;
+}
+button:active{
+  width: 75px;
+  height: 75px;
+}
+#estilo{
+  position: fixed;
+  width: 100%;
+  
+}
+
+@media screen and (max-width: 900px) {
+  table{
+    position: fixed;
+    margin-top:20px;
+    margin-right: 100px;
+  }
+  #cajita_1{
+    width: 100%;
+    margin-top: 250px;
+  }
+  #botones{
+    margin-top: 100px;
+  }
+  #historial{
+    z-index:200; margin: 5% auto; left: 0; right: 0;
+  }
+}

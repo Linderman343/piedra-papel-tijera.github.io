@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera!</title>
+    <link href="fachita.css" rel="stylesheet" type="text/css">
+    <link href="animacao.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+    <h1>Piedra, Papel o Tijeras</h1>
+    <h3 id="creacion">Creación de Leonel Gonzalez</h3>
+</header>
+<table>
+    <tr>
+        <th>Jugadas</th>
+        <th>Yo</th>
+        <th>Cpu</th>
+        </tr>
+    <tr>
+        <td id="vueltas"></td>
+        <td id="puntaje_Yo"></td>
+        <td id="punta_Cpu"></td>
+    </tr>
+  
+</table>
+
+<div id="botones">
+<button type="button"  id="tijera" onclick="movimiento(0)">
+    <img src="/PIedra papel o tijeras/imagenes/tijera.png">
+</button>
+
+<button type="button" value="🧻" onclick="movimiento(1)">
+    <img src="/PIedra papel o tijeras/imagenes/papel.png">
+</button>
+
+<button type="button" value="💎" onclick="movimiento(2)">
+    <img src="/PIedra papel o tijeras/imagenes/piedra.png">
+</button>
+</div>
+
+
+<div id="cajita_1">
+    
+    <ol id="historial">
+        <h3>///////////////////Historial///////////////////</h3>     
+    </ol>
+</div>
+<div id="estilo">
+    <div id="caja_img_1">
+        <img id="img_1"src="/PIedra papel o tijeras/imagenes/${mio}.png"></img>
+    </div>
+    
+    <div id="caja_img_2">
+      <img id="img_2" src="/PIedra papel o tijeras/imagenes/${movimiento_CPU}.png"></img>
+    </div>
+</div>
+<script src="java.js"></script>
+</body>
+</html>
